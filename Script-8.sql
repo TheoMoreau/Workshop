@@ -2,8 +2,6 @@ CREATE DATABASE Findit;
 
 USE Findit;
 
-DROP TABLE departementFRA;
-
 CREATE TABLE departementFRA(
 dep_id INT PRIMARY KEY AUTO_INCREMENT,
 dep_nom VARCHAR(75) NOT NULL,
@@ -108,3 +106,42 @@ INSERT INTO departementFRA(dep_num, dep_nom) VALUES
 ('94', 'Val-de-Marne'),
 ('95', 'Val-d-Oise')
 ;
+
+CREATE TABLE region(
+reg_id INT PRIMARY KEY AUTO_INCREMENT,
+reg_nom VARCHAR(50) NOT NULL
+);
+
+INSERT INTO region(reg_nom) VALUES
+('Alsace'),
+('Aquitaine'),
+('Auvergne'),
+('Basse Normandie'),
+('Bourgogne'),
+('Bretagne'),
+('Centre'),
+('Champagne-Ardenne'),
+('Corse'),
+('Franche Comté'),
+('Haute Normandie'),
+('Ile-de-France'),
+('Languedoc Roussillon'),
+('Limousin'),
+('Lorraine'),
+('Midi Pyrénées'),
+('Nord Pas-de-Calais'),
+('Pays de la Loire'),
+('Picardie'),
+('Poitou-Charente'),
+('Provence-Alpes-Cote-d-Azur'),
+('Rhone Alpes')
+;
+
+
+CREATE TABLE ville(
+ville_id INT PRIMARY KEY AUTO_INCREMENT,
+ville_nom VARCHAR(50) NOT NULL,
+ville_idreg INT NOT NULL
+);
+
+INSERT INTO ville(ville_nom) VALUES
