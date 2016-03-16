@@ -24,8 +24,7 @@ h2
 
 h3
 {
-	margin-left : 34%;
-	margin-top : -15%;
+	margin-top :10%;
 }
 
 h4
@@ -38,7 +37,18 @@ h4
 
 h5
 {
-	margin-left : 7%;
-	margin-top : -3%;
-	font-size : 20px ;
+
+	font-size : 100px ;
+	font-family : Wasted;
+	margin-left : 32%;
+	margin-top : -20%;
+
+}
+
+h6
+{
+	margin-top : -30%;
+	margin-left : 60%;
+	font-family : Wasted;
+	font-size : 30px;
 }
