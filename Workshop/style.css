@@ -1,0 +1,143 @@
+
+@font-face
+{
+	font-family : "Wasted";
+	src: url('Wasted/Wasted.ttf');
+}
+
+body
+{
+	background-color : #FFF000;
+}
+
+section
+{
+	border :2px solid black;
+	margin-top : -2%;
+}
+
+
+
+h1
+{
+	font-family : Wasted;
+	font-size : 250px;
+	margin-left : 15%;
+	margin-top : 5%;
+	
+}
+
+h2
+{
+	
+	margin-left : 20%;
+	margin-bottom : 15%;
+	margin-top : -5%;
+	
+}
+
+h3
+{
+	font-family : Wasted;
+	font-size : 80px;
+	margin-left : 40%;
+	margin-top : -10%;
+}
+
+h4
+{
+	margin-top : -3%;
+	margin-left : 25%;
+}
+
+h5
+{
+	margin-left : 5%;
+	margin-top : 1%;
+}
+
+h6
+{
+	font-family : Wasted;
+	font-size : 30px;
+	margin-left : 60%;
+	margin-top : -40%;
+}
+
+
+
+hr
+{
+	border : 1px solid black;
+}
+
+
+
+.ligne_vertical
+{
+
+	border-left : 3px solid black;
+	height : 1100px;
+	margin-left : 13.5%;
+	margin-top : -12%;
+}
+
+input#buttonri{
+	cursor:pointer;
+	padding:1% 5%;
+	background:black; 
+	border:2px solid grey;
+	font-family : Wasted;
+	font-size : 25px;
+	
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	
+	-webkit-box-shadow: 0 0 4px rgba(0,0,0, .75);
+	-moz-box-shadow: 0 0 4px rgba(0,0,0, .75);
+	box-shadow: 0 0 4px rgba(0,0,0, .75);
+
+	color:yellow;
+	font-size:20px;
+	margin-left : 5%;
+}
+
+input#buttonri:hover{
+	background-color :#FFF000; 
+	color : black;
+	border : #FFF000;
+	-webkit-box-shadow: 0 0 1px rgba(0,0,0, .75);
+	-moz-box-shadow: 0 0 1px rgba(0,0,0, .75);
+	box-shadow: 0 0 1px rgba(0,0,0, .75);
+}
+
+input#buttonvi{
+	cursor:pointer;
+	padding:0.5% 3%;
+	background:black; 
+	border:2px solid grey;
+	font-family : Wasted;
+	font-size : 25px;
+	
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	
+	-webkit-box-shadow: 0 0 4px rgba(0,0,0, .75);
+	-moz-box-shadow: 0 0 4px rgba(0,0,0, .75);
+	box-shadow: 0 0 4px rgba(0,0,0, .75);
+
+	color:yellow;
+	font-size:20px;
+	margin-left : 5%;
+}
+
+input#buttonvi:hover{
+	background-color :#FFF000; 
+	color : black;
+	border : #FFF000;
+	-webkit-box-shadow: 0 0 1px rgba(0,0,0, .75);
+	-moz-box-shadow: 0 0 1px rgba(0,0,0, .75);
+	box-shadow: 0 0 1px rgba(0,0,0, .75);
+}

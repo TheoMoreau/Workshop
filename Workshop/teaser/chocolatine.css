@@ -1,0 +1,14 @@
+html
+{
+	background: url("images/chocolatine.jpg") no-repeat center fixed;
+	font-family: Fancy;
+	font-size : 500px;
+	color : black;
+	text-align : center;
+	margin-top : 10%;
+}
+@font-face
+{
+	font-family : "Fancy";
+	src: url('FancyHeartScript.ttf');
+}

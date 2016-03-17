@@ -1,0 +1,54 @@
+h1
+{
+	font-family : Wasted;
+	font-size : 250px;
+	margin-left : 15%;
+	margin-top : 5%;
+	
+}
+@font-face
+{
+	font-family : "Wasted";
+	src: url('Wasted/Wasted.ttf');
+}
+body
+{
+	background-color : #FFF000;
+}
+
+h2
+{
+	margin-left : 65%;
+	margin-top : -11.4%;
+}
+
+h3
+{
+	margin-top : 5%;
+}
+
+h4
+{
+	font-family : Wasted;
+	margin-left : 5%;
+	margin-top : 8%;
+	font-size : 40px;
+}
+
+h5
+{
+
+	font-size : 100px ;
+	font-family : Wasted;
+	margin-left : 32%;
+	margin-top : -20%;
+
+}
+
+h6
+{
+	margin-top : -30%;
+	margin-left : 60%;
+	font-family : Wasted;
+	font-size : 30px;
+}
