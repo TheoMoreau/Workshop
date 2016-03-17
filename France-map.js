@@ -2,7 +2,7 @@
 
 // Configuration de la map  //
 
-var mapcolor = "#FAAC58";			// couleur de fond de carte
+var mapcolor = "#2255ff";			// couleur de fond de carte
 var mapcolor_hover = "#FF0000";		// couleur de survol de la souris
 var maplines = "#58ACFA";			// couleur des traits de séparation des régions
 
@@ -126,10 +126,10 @@ var paths = {
 
 function francefree(){
 var cmap = '';
-cmap += '<link rel="stylesheet" href="cmap/style.css" type="text/css" media="screen" />';
-cmap += '<script src="cmap/jquery-1.11.1.min.js"></script>';
-cmap += '<script src="cmap/france-map.js"></script>';
-cmap += '<div id="legende"></div><map  name="map"><div id="areas"></div> </map><img id="canvasMap" id="image" src="cmap/trans.gif" usemap="#map"/><canvas id="canvas">Mettez à jour votre navigateur Internet !</canvas>';
+cmap += '<link rel="stylesheet" href="style.css" type="text/css" media="screen" />';
+cmap += '<script src="jquery-1.11.1.min.js"></script>';
+cmap += '<script src="france-map.js"></script>';
+cmap += '<div id="legende"></div><map  name="map"><div id="areas"></div> </map><img id="canvasMap" id="image" src="trans.gif" usemap="#map"/><canvas id="canvas">Mettez à jour votre navigateur Internet !</canvas>';
 document.write(""+cmap+"");
 }
 
