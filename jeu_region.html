@@ -1,16 +1,42 @@
 <html>
 	<head>
 		<meta charset="UTF-8"/>
-		<title> Départements </title>
+		<title> Régions </title>
 		<link rel="stylesheet" href="style.css"/>
+		<meta name="viewport" content="width=device-width" />
 	</head>
 	
 	<body>
 
-	<h3><p> Regions </p></h3>
+	<p><a href="chocolatine.html"><img src="images/chocolateam.jpg" width="150" height="150"></img></a><h3> Regions </p></h3>
+	
+	<nav>	
+	<h4><input id="buttonvi" type="button" value=" acceuil " 
+		onclick="location.href='index.html';">
+	
+		
+		<input id="buttonvi" type="button" value="  villes  " 
+		onclick="location.href='jeu_ville.html';">
+	
+		
+		<input id="buttonvi" type="button" value="patrimoine" 
+		onclick="location.href='jeu_patrimoine.html';"></h4>
+		
+	</nav>
+	<hr>
+	
+
+	<div class="main">
 	
 	
-	<section>
-	</section>
+	<script src="France-map.js"></script>
+	<script>
+	francefree();
+	</script>
+	</div>
+	<div class="jeu">
+	<script src="jeu.js">	</script>
 	
+	
+	</script>
 	</body>
