@@ -1,0 +1,197 @@
+
+@font-face
+{
+	font-family : "Wasted";
+	src: url('Wasted/Wasted.ttf');
+}
+
+body
+{
+	background-color : #FFF000;
+}
+
+section
+{
+	border :2px solid black;
+	margin-top : -2%;
+}
+
+
+
+h1
+{
+	font-family : Wasted;
+	font-size : 250px;
+	margin-left : 15%;
+	margin-top : 5%;
+	
+}
+
+h2
+{
+	
+	margin-left : 20%;
+	margin-bottom : 15%;
+	margin-top : -5%;
+	
+}
+
+h3
+{
+	font-family : Wasted;
+	font-size : 80px;
+	margin-left : 40%;
+	margin-top : -10%;
+}
+
+h4
+{
+	margin-top : -3%;
+	margin-left : 25%;
+}
+
+h5
+{
+	margin-left : 5%;
+	margin-top : 1%;
+	
+}
+
+h6
+{
+	font-family : Wasted;
+	font-size : 30px;
+	margin-left : 15%;
+	text-align : center;
+	margin-top : -15%;
+
+}
+
+
+
+hr
+{
+	border : 1px solid black;
+}
+
+.bêta
+{
+	font-family : Wasted;
+	font-size : 50px;
+}
+
+
+
+
+input#buttonri{
+	cursor:pointer;
+	padding:1% 5%;
+	background:black; 
+	border:2px solid grey;
+	font-family : Wasted;
+	font-size : 25px;
+	
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	
+	-webkit-box-shadow: 0 0 4px rgba(0,0,0, .75);
+	-moz-box-shadow: 0 0 4px rgba(0,0,0, .75);
+	box-shadow: 0 0 4px rgba(0,0,0, .75);
+
+	color:yellow;
+	font-size:20px;
+	margin-left : 5%;
+}
+
+input#buttonri:hover{
+	background-color :#FFF000; 
+	color : black;
+	border : #FFF000;
+	-webkit-box-shadow: 0 0 1px rgba(0,0,0, .75);
+	-moz-box-shadow: 0 0 1px rgba(0,0,0, .75);
+	box-shadow: 0 0 1px rgba(0,0,0, .75);
+}
+
+input#buttonvi{
+	cursor:pointer;
+	padding:0.5% 3%;
+	background:black; 
+	border:2px solid grey;
+	font-family : Wasted;
+	font-size : 25px;
+	
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	
+	-webkit-box-shadow: 0 0 4px rgba(0,0,0, .75);
+	-moz-box-shadow: 0 0 4px rgba(0,0,0, .75);
+	box-shadow: 0 0 4px rgba(0,0,0, .75);
+
+	color:yellow;
+	font-size:20px;
+	margin-left : 5%;
+}
+
+input#buttonvi:hover{
+	background-color :#FFF000; 
+	color : black;
+	border : #FFF000;
+	-webkit-box-shadow: 0 0 1px rgba(0,0,0, .75);
+	-moz-box-shadow: 0 0 1px rgba(0,0,0, .75);
+	box-shadow: 0 0 1px rgba(0,0,0, .75);
+}
+
+#canvasMap{
+      
+       position: absolute;
+         width : 320px;
+         height : 320px;
+ 		z-index: 50;
+ }
+ body {width:960px;margin:auto;background-color:#FFF000;}
+ #page {width:960px;}
+ 
+ 
+ #page #gauche {width:820px;float:left;}
+ #page #gauche #corps {width:620px;float:right;background-color:#FFF000;padding-bottom:15px;padding-left:10px;padding-top:10px;min-height:500px;
+ 		-moz-border-radius: 10px; 
+         -webkit-border-radius: 10px; 
+         border-radius: 10px;}
+ #page #gauche #menu {width:180px;}
+ #page #gauche .menu1 {width: 180px;padding-top:10px;padding-bottom:10px;margin-bottom:15px;
+ 		-moz-border-radius: 10px; 
+         -webkit-border-radius: 10px; 
+         border-radius: 10px;}
+ #page #gauche #menu .der {margin-top:0;padding-top:0;}
+ 		
+ #page #droite {width:120px;background-color:rgb(237,247,251);margin-left:830px;padding:5px 5px 5px 5px;
+ 		-moz-border-radius: 10px; 
+         -webkit-border-radius: 10px; 
+         border-radius: 10px;}
+ 
+ #page #menu-horizontal {position:absolute;top:110px;left:220px;}
+ #page #menu-horizontal li {float:left;list-style-type:none;margin: 0;padding: 0;text-align: center;}
+ #page #menu-horizontal li  a{display:block;background-color:rgb(40,131,255);width:150px;height:20px;text-align:center;font-weight:bold;font-size:15px;color:black;}
+ #page #menu-horizontal li  a:hover {background-color:rgb(105,195,225);}
+ 
+ #page #gauche #menu a {display:block;color:black;padding-left:10px;background-color:rgb(237,247,251);}
+ #page #gauche #menu a:hover {background-color:rgb(40,131,255);}
+ #page #gauche #menu .menutop {background-color:rgb(40,131,255);text-align:center;height:25px;padding-top:5px;}
+ 		
+ ul {text-decoration: none;list-style: none;margin:0;padding:0;}
+ #en_tete a {display:block;width:960px;height:100px;}
+ a {text-decoration:none;}
+  
+ -#legende {
+ font-size: 12px;
+ color: #FFF000;
+ font-weight: bold;
+ z-index: 100;
+ margin-bottom: 30px;
+ background-color: #FFFFFF;
+ position: absolute;
+ font-family: Verdana, Arial, Helvetica, sans-serif;
+ padding: 4px;
+ }
