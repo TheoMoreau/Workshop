@@ -1,4 +1,189 @@
-body {width:960px;margin:auto;background-color:#3b3b3b;}
+
+@font-face
+{
+	font-family : "Wasted";
+	src: url('Wasted/Wasted.ttf');
+}
+
+body
+{
+	background-color : #FFF000;
+}
+
+section
+{
+	border :2px solid black;
+	margin-top : -2%;
+}
+
+
+
+h1
+{
+	font-family : Wasted;
+	font-size : 250px;
+	margin-left : 15%;
+	margin-top : 5%;
+	
+}
+
+h2
+{
+	
+	margin-left : 20%;
+	margin-bottom : 15%;
+	margin-top : -5%;
+	
+}
+
+h3
+{
+	font-family : Wasted;
+	font-size : 80px;
+	margin-left : 40%;
+	margin-top : -10%;
+}
+
+h4
+{
+	margin-top : -3%;
+	margin-left : 25%;
+}
+
+h5
+{
+	margin-left : 5%;
+	margin-top : 1%;
+	
+}
+
+h6
+{
+	font-family : Wasted;
+	font-size : 30px;
+	margin-left : 15%;
+	text-align : center;
+	margin-top : -15%;
+
+}
+
+
+
+hr
+{
+	border : 1px solid black;
+}
+
+.bêta
+{
+	font-family : Wasted;
+	font-size : 50px;
+}
+
+
+
+
+input#buttonri{
+	cursor:pointer;
+	padding:1% 5%;
+	background:black; 
+	border:2px solid grey;
+	font-family : Wasted;
+	font-size : 25px;
+	
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	
+	-webkit-box-shadow: 0 0 4px rgba(0,0,0, .75);
+	-moz-box-shadow: 0 0 4px rgba(0,0,0, .75);
+	box-shadow: 0 0 4px rgba(0,0,0, .75);
+
+	color:yellow;
+	font-size:20px;
+	margin-left : 5%;
+}
+
+input#buttonri:hover{
+	background-color :#FFF000; 
+	color : black;
+	border : #FFF000;
+	-webkit-box-shadow: 0 0 1px rgba(0,0,0, .75);
+	-moz-box-shadow: 0 0 1px rgba(0,0,0, .75);
+	box-shadow: 0 0 1px rgba(0,0,0, .75);
+}
+
+input#buttonvi{
+	cursor:pointer;
+	padding:0.5% 3%;
+	background:black; 
+	border:2px solid grey;
+	font-family : Wasted;
+	font-size : 25px;
+	
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	
+	-webkit-box-shadow: 0 0 4px rgba(0,0,0, .75);
+	-moz-box-shadow: 0 0 4px rgba(0,0,0, .75);
+	box-shadow: 0 0 4px rgba(0,0,0, .75);
+
+	color:yellow;
+	font-size:20px;
+	margin-left : 5%;
+}
+
+input#buttonvi:hover{
+	background-color :#FFF000; 
+	color : black;
+	border : #FFF000;
+	-webkit-box-shadow: 0 0 1px rgba(0,0,0, .75);
+	-moz-box-shadow: 0 0 1px rgba(0,0,0, .75);
+	box-shadow: 0 0 1px rgba(0,0,0, .75);
+}
+
+#canvasMap{
+     
+      position: absolute;
+        width : 320px;
+        height : 320px;
+		z-index: 50;
+}
+
+#legende {
+	font-size: 12px;
+	color: #FFF000;
+	font-weight: bold;
+	z-index: 100;
+	margin-bottom: 30px;
+	margin-right : 30px;
+	background-color: #FFF000;
+	position: absolute;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	padding: 4px;
+	  
+}
+
+.main{
+width: 300px;
+height: 300px;
+padding: 3em;
+margin-left:20%;
+background-color: ##FFF000;
+
+}
+.texte{
+width: 800px;
+height: 350px;
+padding: 3em;
+margin-left:25%;
+background-color: #FFF000;
+
+
+}
+
+
 #page {width:960px;}
 
 
